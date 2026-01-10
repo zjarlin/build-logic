@@ -98,7 +98,7 @@ kotlinxDatetime = "0.7.1-0.6.x-compat"
 
 coil = "3.3.0"
 addzero = "0.0.674"
-tool-database-model="2025.11.15"
+tool-database-model = "2025.11.15"
 aspectjweaver = "1.9.9"
 org-jetbrains-intellij-platform-base-gradle-plugin = "2.10.3"
 org-jetbrains-changelog-gradle-plugi = "2.4.0"
@@ -114,21 +114,269 @@ org-jetbrains-intellij-platform-module-gradle-plugin = "2.10.3"
 org-jetbrains-intellij-platform-gradle-plugi = "2.10.3"
 org-jetbrains-intellij-platform-settings-gradle-plugin = "2.10.3"
 xerial = "3.44.1.0"
-tool-str="2025.12.04"
-tool-ai="0.0.673"
-tool-toml="0.0.672"
-tool-jvmstr="2025.11.27"
-tool-reflection="2025.10.20"
-tool-api-maven="2025.12.04"
-tool-pinyin="2025.10.07"
-tool-json="2025.09.30"
-tool-sql-executor="2025.11.26"
-json2kotlin-dataclass="2025.11.33"
-gradle-tool-config-java="2025.11.29"
+tool-str = "2025.12.04"
+tool-ai = "0.0.673"
+tool-toml = "0.0.672"
+tool-jvmstr = "2025.11.27"
+tool-reflection = "2025.10.20"
+tool-api-maven = "2025.12.04"
+tool-pinyin = "2025.10.07"
+tool-json = "2025.09.30"
+tool-sql-executor = "2025.11.26"
+json2kotlin-dataclass = "2025.11.33"
+gradle-tool-config-java = "2025.11.29"
 ecj = "3.39.0"
 caffeine = "2.9.1"
 
+addzero = "2025.09.29"
+cn-idev-excel-fastexcel = "1.2.0"
+com-aliyun-polardb-jdbc = "1.0.0"
+com-baomidou-mybatis-plus = "${libs.versions.mybatisPlus.get()}"
+com-baomidou-mybatis-plus-core = "${libs.versions.mybatisPlus.get()}"
+com-dameng-dmjdbcdriver18 = "8.1.2.141"
+com-fasterxml-jackson-core-jackson-databind = "2.20.0"
+com-google-devtools-ksp-com-google-devtools-ksp-gradle-plugin = "2.0.21-1.0.28"
+com-google-devtools-ksp-symbol-processing-api = "2.3.4"
+com-h2database-h2 = "2.1.214"
+com-hierynomus-sshj = "0.39.0"
+com-ibm-db2-jcc = "11.5.8.0"
+com-microsoft-sqlserver-mssql-jdbc = "10.2.0.jre8"
+com-oracle-database-jdbc-ojdbc8 = "21.5.0.0"
+com-squareup-javapoet = "1.13.0"
+com-squareup-kotlinpoet = "1.14.2"
+com-squareup-okhttp3-okhttp = "4.12.0"
+com-sun-mail-jakarta-mail = "2.0.1"
+com-sybase-jconn4 = "7.0"
+com-taosdata-jdbc-taos-jdbcdriver = "3.7.8"
+com-taosdata-taos-jdbcdriver = "3.2.7"
+commons = "1.2"
+encoder = "1.4.0"
+gaussdb = "4.9.0"
+gson = "2.10.1"
+io-insert-koin-koin-annotations = "${extension.koinAnnotationsVersion.get()}"
+io-insert-koin-koin-core = "${extension.koinBomVersion.get()}"
+io-insert-koin-koin-ksp-compiler = "${extension.kspVersion.get()}"
+jakarta-servlet-jakarta-servlet-api = "6.0.0"
+javax-annotation-javax-annotation-api = "1.3.2"
+javax-servlet-javax-servlet-api = "4.0.1"
+jimmer = "0.9.119"
+jsoup = "1.15.3"
+jte = "3.1.12"
+kingbase8 = "8.6.0"
+kotest = "5.7.2"
+kotlin = "2.2.20"
+kotlinx = "1.10.0-RC"
+me-champeau-includegit-me-champeau-includegit-gradle-plugin = "0.3.2"
+mockito = "5.7.0"
+mysql = "8.0.33"
+net-bytebuddy-byte-buddy = "1.17.7"
+netty = "4.1.104.Final"
+oceanbase = "2.4.5"
+okio = "3.5.0"
+org-apache-httpcomponents-httpclient = "4.5.14"
+org-apache-httpcomponents-httpcore = "4.4.13"
+org-bouncycastle-bcprov-jdk15to18 = "1.78"
+org-jetbrains-kotlin-multiplatform-org-jetbrains-kotlin-multiplatform-gradle-plugin = "2.3.0"
+org-jetbrains-kotlin-plugin-serialization-org-jetbrains-kotlin-plugin-serialization-gradle-plugin = "2.3.0"
+org-junit-jupiter-junit-jupiter = "5.8.2"
+org-mybatis-spring-boot-mybatis-spring-boot-starter = "3.0.5"
+org-openeuler-bgmprovider = "1.0.6"
+org-projectlombok-lombok = "1.18.38"
+org-springframework-spring-beans = "5.3.21"
+org-springframework-spring-context = "5.3.21"
+org-springframework-spring-core = "6.1.14"
+org-springframework-spring-expression = "5.3.39"
+org-springframework-spring-jdbc = "5.3.21"
+org-springframework-spring-web = "5.3.21"
+org-springframework-spring-webmvc = "5.3.21"
+org-xerial-sqlite-jdbc = "3.39.3.0"
+postgresql = "42.7.2"
+site-addzero-apt-dict-trans-core = "2025.12.16"
+site-addzero-controller-autoconfigure = "2026.01.11"
+site-addzero-dict-trans-core = "${libs.versions.addzero.lib.get()}"
+site-addzero-gen-reified-core = "2026.01.01"
+site-addzero-gen-reified-processor = "2026.01.08"
+site-addzero-gradle-plugin-java-convention-site-addzero-gradle-plugin-java-convention-gradle-plugin = "2025.12.19"
+site-addzero-gradle-script-core = "2025.11.29"
+site-addzero-gradle-tool-config-java = "0.0.674"
+site-addzero-huawei-java-sdk = "${libs.versions.addzero.lib.get()}"
+site-addzero-ioc-core = "2025.12.23"
+site-addzero-java-convention = "2025.12.19"
+site-addzero-kotlin-convention = "2025.12.20"
+site-addzero-ksp-convention = "2025.12.21"
+site-addzero-lsi-apt = "2026.01.11"
+site-addzero-lsi-core = "2026.01.11"
+site-addzero-lsi-intellij = "2026.01.11"
+site-addzero-lsi-ksp = "2026.01.11"
+site-addzero-lsi-kt2 = "2026.01.11"
+site-addzero-lsi-psi = "2026.01.11"
+site-addzero-mybatis-auto-wrapper = "${libs.versions.mybatisAutoWrapper.get()}"
+site-addzero-mybatis-auto-wrapper-core = "2025.11.24"
+site-addzero-tool-api-maven = "2025.11.28"
+site-addzero-tool-bytebuddy = "2026.01.11"
+site-addzero-tool-cli-repl = "+"
+site-addzero-tool-coll = "2026.01.01"
+site-addzero-tool-context = "0.0.672"
+site-addzero-tool-curl = "0.0.672"
+site-addzero-tool-database-model = "2025.11.15"
+site-addzero-tool-io-codegen = "${libs.versions.addzero.lib674.get()}"
+site-addzero-tool-jdbc = "2025.12.24"
+site-addzero-tool-jdbc-model = "2025.09.30"
+site-addzero-tool-jvmstr = "${libs.versions.addzero.lib1.get()}"
+site-addzero-tool-koin = "${extension.toolKoinVersion.get()}"
+site-addzero-tool-pinyin = "2025.10.07"
+site-addzero-tool-reflection = "${libs.versions.addzero.lib.get()}"
+site-addzero-tool-spctx = "2025.11.27"
+site-addzero-tool-spel = "2025.11.19"
+site-addzero-tool-sql-executor = "2025.11.26"
+site-addzero-tool-str = "2025.12.09"
+site-addzero-tool-yml = "+"
+slf4j = "2.0.16"
+software-amazon-awssdk-s3 = "2.29.16"
+swagger = "1.6.12"
+tidb = "0.1.0"
+validation = "2.0.1.Final"
+velocity = "2.3"
+
+
 [libraries]
+addzero-entity2analysed-support = { group = "site.addzero", name = "addzero-entity2analysed-support", version.ref = "addzero" }
+addzero-entity2form-core = { group = "site.addzero", name = "addzero-entity2form-core", version.ref = "addzero" }
+addzero-ioc-core = { group = "site.addzero", name = "addzero-ioc-core", version.ref = "addzero" }
+addzero-jimmer-model-lowquery = { group = "site.addzero", name = "addzero-jimmer-model-lowquery", version.ref = "addzero" }
+addzero-kcp-annotations = { group = "site.addzero", name = "addzero-kcp-annotations", version.ref = "addzero" }
+addzero-ksp-dsl-builder-core = { group = "site.addzero", name = "addzero-ksp-dsl-builder-core", version.ref = "addzero" }
+addzero-ksp-easycode = { group = "site.addzero", name = "addzero-ksp-easycode", version.ref = "addzero" }
+addzero-ksp-support = { group = "site.addzero", name = "addzero-ksp-support", version.ref = "addzero" }
+addzero-ksp-support-jdbc = { group = "site.addzero", name = "addzero-ksp-support-jdbc", version.ref = "addzero" }
+addzero-route-core = { group = "site.addzero", name = "addzero-route-core", version.ref = "addzero" }
+addzero-tool-common-jvm = { group = "site.addzero", name = "addzero-tool-common-jvm", version.ref = "addzero" }
+addzero-tool-jdbc = { group = "site.addzero", name = "addzero-tool-jdbc", version.ref = "addzero" }
+addzero-tool-json = { group = "site.addzero", name = "addzero-tool-json", version.ref = "addzero" }
+addzero-tool-koin = { group = "site.addzero", name = "addzero-tool-koin", version.ref = "addzero" }
+addzero-tool-spring = { group = "site.addzero", name = "addzero-tool-spring", version.ref = "addzero" }
+addzero-tool-str = { group = "site.addzero", name = "addzero-tool-str", version.ref = "addzero" }
+apt-dict-trans-core = { group = "site.addzero", name = "apt-dict-trans-core", version.ref = "site-addzero-apt-dict-trans-core" }
+bcprov-jdk15to18 = { group = "org.bouncycastle", name = "bcprov-jdk15to18", version.ref = "org-bouncycastle-bcprov-jdk15to18" }
+bgmprovider = { group = "org.openeuler", name = "bgmprovider", version.ref = "org-openeuler-bgmprovider" }
+byte-buddy = { group = "net.bytebuddy", name = "byte-buddy", version.ref = "net-bytebuddy-byte-buddy" }
+com-google-devtools-ksp-gradle-plugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "com-google-devtools-ksp-com-google-devtools-ksp-gradle-plugin" }
+commons-codec = { group = "commons-codec", name = "commons-codec", version.ref = "commons" }
+commons-lang3 = { group = "org.apache.commons", name = "commons-lang3", version.ref = "commons" }
+commons-logging = { group = "commons-logging", name = "commons-logging", version.ref = "commons" }
+controller-autoconfigure = { group = "site.addzero", name = "controller-autoconfigure", version.ref = "site-addzero-controller-autoconfigure" }
+dict-trans-core = { group = "site.addzero", name = "dict-trans-core", version.ref = "site-addzero-dict-trans-core" }
+dmjdbcdriver18 = { group = "com.dameng", name = "DmJdbcDriver18", version.ref = "com-dameng-dmjdbcdriver18" }
+encoder-esapi = { group = "org.owasp.encoder", name = "encoder-esapi", version.ref = "encoder" }
+fastexcel = { group = "cn.idev.excel", name = "fastexcel", version.ref = "cn-idev-excel-fastexcel" }
+gaussdb-jdbc = { group = "com.huawei.gauss", name = "gaussdb-jdbc", version.ref = "gaussdb" }
+gen-reified-core = { group = "site.addzero", name = "gen-reified-core", version.ref = "site-addzero-gen-reified-core" }
+gen-reified-processor = { group = "site.addzero", name = "gen-reified-processor", version.ref = "site-addzero-gen-reified-processor" }
+gradle-script-core = { group = "site.addzero", name = "gradle-script-core", version.ref = "site-addzero-gradle-script-core" }
+gradle-tool-config-java = { group = "site.addzero", name = "gradle-tool-config-java", version.ref = "site-addzero-gradle-tool-config-java" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+h2 = { group = "com.h2database", name = "h2", version.ref = "com-h2database-h2" }
+httpclient = { group = "org.apache.httpcomponents", name = "httpclient", version.ref = "org-apache-httpcomponents-httpclient" }
+httpcore = { group = "org.apache.httpcomponents", name = "httpcore", version.ref = "org-apache-httpcomponents-httpcore" }
+huawei-java-sdk = { group = "site.addzero", name = "huawei-java-sdk", version.ref = "site-addzero-huawei-java-sdk" }
+ioc-core = { group = "site.addzero", name = "ioc-core", version.ref = "site-addzero-ioc-core" }
+jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "com-fasterxml-jackson-core-jackson-databind" }
+jakarta-mail = { group = "com.sun.mail", name = "jakarta.mail", version.ref = "com-sun-mail-jakarta-mail" }
+jakarta-servlet-api = { group = "jakarta.servlet", name = "jakarta.servlet-api", version.ref = "jakarta-servlet-jakarta-servlet-api" }
+java-convention = { group = "site.addzero", name = "java-convention", version.ref = "site-addzero-java-convention" }
+javapoet = { group = "com.squareup", name = "javapoet", version.ref = "com-squareup-javapoet" }
+javax-annotation-api = { group = "javax.annotation", name = "javax.annotation-api", version.ref = "javax-annotation-javax-annotation-api" }
+javax-servlet-api = { group = "javax.servlet", name = "javax.servlet-api", version.ref = "javax-servlet-javax-servlet-api" }
+jcc = { group = "com.ibm.db2", name = "jcc", version.ref = "com-ibm-db2-jcc" }
+jconn4 = { group = "com.sybase", name = "jconn4", version.ref = "com-sybase-jconn4" }
+jimmer-core = { group = "org.babyfish.jimmer", name = "jimmer-core", version.ref = "jimmer" }
+jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoup" }
+jte = { group = "gg.jte", name = "jte", version.ref = "jte" }
+jte-kotlin = { group = "gg.jte", name = "jte-kotlin", version.ref = "jte" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "org-junit-jupiter-junit-jupiter" }
+kingbase8 = { group = "cn.com.kingbase", name = "kingbase8", version.ref = "kingbase8" }
+koin-annotations = { group = "io.insert-koin", name = "koin-annotations", version.ref = "io-insert-koin-koin-annotations" }
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "io-insert-koin-koin-core" }
+koin-ksp-compiler = { group = "io.insert-koin", name = "koin-ksp-compiler", version.ref = "io-insert-koin-koin-ksp-compiler" }
+kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
+kotest-property = { group = "io.kotest", name = "kotest-property", version.ref = "kotest" }
+kotest-runner-junit5 = { group = "io.kotest", name = "kotest-runner-junit5", version.ref = "kotest" }
+kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version.ref = "kotlin" }
+kotlin-convention = { group = "site.addzero", name = "kotlin-convention", version.ref = "site-addzero-kotlin-convention" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlinpoet = { group = "com.squareup", name = "kotlinpoet", version.ref = "com-squareup-kotlinpoet" }
+kotlinx-serialization-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version.ref = "kotlinx" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx" }
+ksp-convention = { group = "site.addzero", name = "ksp-convention", version.ref = "site-addzero-ksp-convention" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "org-projectlombok-lombok" }
+lsi-apt = { group = "site.addzero", name = "lsi-apt", version.ref = "site-addzero-lsi-apt" }
+lsi-core = { group = "site.addzero", name = "lsi-core", version.ref = "site-addzero-lsi-core" }
+lsi-intellij = { group = "site.addzero", name = "lsi-intellij", version.ref = "site-addzero-lsi-intellij" }
+lsi-ksp = { group = "site.addzero", name = "lsi-ksp", version.ref = "site-addzero-lsi-ksp" }
+lsi-kt2 = { group = "site.addzero", name = "lsi-kt2", version.ref = "site-addzero-lsi-kt2" }
+lsi-psi = { group = "site.addzero", name = "lsi-psi", version.ref = "site-addzero-lsi-psi" }
+me-champeau-includegit-gradle-plugin = { group = "me.champeau.includegit", name = "me.champeau.includegit.gradle.plugin", version.ref = "me-champeau-includegit-me-champeau-includegit-gradle-plugin" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+mssql-jdbc = { group = "com.microsoft.sqlserver", name = "mssql-jdbc", version.ref = "com-microsoft-sqlserver-mssql-jdbc" }
+mybatis-auto-wrapper = { group = "site.addzero", name = "mybatis-auto-wrapper", version.ref = "site-addzero-mybatis-auto-wrapper" }
+mybatis-auto-wrapper-core = { group = "site.addzero", name = "mybatis-auto-wrapper-core", version.ref = "site-addzero-mybatis-auto-wrapper-core" }
+mybatis-plus = { group = "com.baomidou", name = "mybatis-plus", version.ref = "com-baomidou-mybatis-plus" }
+mybatis-plus-core = { group = "com.baomidou", name = "mybatis-plus-core", version.ref = "com-baomidou-mybatis-plus-core" }
+mybatis-spring-boot-starter = { group = "org.mybatis.spring.boot", name = "mybatis-spring-boot-starter", version.ref = "org-mybatis-spring-boot-mybatis-spring-boot-starter" }
+mysql-connector-java = { group = "mysql", name = "mysql-connector-java", version.ref = "mysql" }
+netty-all = { group = "io.netty", name = "netty-all", version.ref = "netty" }
+oceanbase-client = { group = "com.oceanbase", name = "oceanbase-client", version.ref = "oceanbase" }
+ojdbc8 = { group = "com.oracle.database.jdbc", name = "ojdbc8", version.ref = "com-oracle-database-jdbc-ojdbc8" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "com-squareup-okhttp3-okhttp" }
+okio = { group = "com.squareup.okio", name = "okio", version.ref = "okio" }
+org-jetbrains-kotlin-multiplatform-gradle-plugin = { group = "org.jetbrains.kotlin.multiplatform", name = "org.jetbrains.kotlin.multiplatform.gradle.plugin", version.ref = "org-jetbrains-kotlin-multiplatform-org-jetbrains-kotlin-multiplatform-gradle-plugin" }
+org-jetbrains-kotlin-plugin-serialization-gradle-plugin = { group = "org.jetbrains.kotlin.plugin.serialization", name = "org.jetbrains.kotlin.plugin.serialization.gradle.plugin", version.ref = "org-jetbrains-kotlin-plugin-serialization-org-jetbrains-kotlin-plugin-serialization-gradle-plugin" }
+polardb-jdbc = { group = "com.aliyun", name = "polardb-jdbc", version.ref = "com-aliyun-polardb-jdbc" }
+postgresql = { group = "org.postgresql", name = "postgresql", version.ref = "postgresql" }
+s3 = { group = "software.amazon.awssdk", name = "s3", version.ref = "software-amazon-awssdk-s3" }
+site-addzero-gradle-plugin-java-convention-gradle-plugin = { group = "site.addzero.gradle.plugin.java-convention", name = "site.addzero.gradle.plugin.java-convention.gradle.plugin", version.ref = "site-addzero-gradle-plugin-java-convention-site-addzero-gradle-plugin-java-convention-gradle-plugin" }
+slf4j-api = { group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j" }
+slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version.ref = "slf4j" }
+spring-beans = { group = "org.springframework", name = "spring-beans", version.ref = "org-springframework-spring-beans" }
+spring-context = { group = "org.springframework", name = "spring-context", version.ref = "org-springframework-spring-context" }
+spring-core = { group = "org.springframework", name = "spring-core", version.ref = "org-springframework-spring-core" }
+spring-expression = { group = "org.springframework", name = "spring-expression", version.ref = "org-springframework-spring-expression" }
+spring-jdbc = { group = "org.springframework", name = "spring-jdbc", version.ref = "org-springframework-spring-jdbc" }
+spring-web = { group = "org.springframework", name = "spring-web", version.ref = "org-springframework-spring-web" }
+spring-webmvc = { group = "org.springframework", name = "spring-webmvc", version.ref = "org-springframework-spring-webmvc" }
+sqlite-jdbc = { group = "org.xerial", name = "sqlite-jdbc", version.ref = "org-xerial-sqlite-jdbc" }
+sshj = { group = "com.hierynomus", name = "sshj", version.ref = "com-hierynomus-sshj" }
+swagger-annotations = { group = "io.swagger", name = "swagger-annotations", version.ref = "swagger" }
+symbol-processing-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version.ref = "com-google-devtools-ksp-symbol-processing-api" }
+taos-jdbcdriver = { group = "com.taosdata.jdbc", name = "taos-jdbcdriver", version.ref = "com-taosdata-jdbc-taos-jdbcdriver" }
+tidb-jdbc = { group = "io.tidb", name = "tidb-jdbc", version.ref = "tidb" }
+tool-api-maven = { group = "site.addzero", name = "tool-api-maven", version.ref = "site-addzero-tool-api-maven" }
+tool-bytebuddy = { group = "site.addzero", name = "tool-bytebuddy", version.ref = "site-addzero-tool-bytebuddy" }
+tool-cli-repl = { group = "site.addzero", name = "tool-cli-repl", version.ref = "site-addzero-tool-cli-repl" }
+tool-coll = { group = "site.addzero", name = "tool-coll", version.ref = "site-addzero-tool-coll" }
+tool-context = { group = "site.addzero", name = "tool-context", version.ref = "site-addzero-tool-context" }
+tool-curl = { group = "site.addzero", name = "tool-curl", version.ref = "site-addzero-tool-curl" }
+tool-database-model = { group = "site.addzero", name = "tool-database-model", version.ref = "site-addzero-tool-database-model" }
+tool-io-codegen = { group = "site.addzero", name = "tool-io-codegen", version.ref = "site-addzero-tool-io-codegen" }
+tool-jdbc = { group = "site.addzero", name = "tool-jdbc", version.ref = "site-addzero-tool-jdbc" }
+tool-jdbc-model = { group = "site.addzero", name = "tool-jdbc-model", version.ref = "site-addzero-tool-jdbc-model" }
+tool-jvmstr = { group = "site.addzero", name = "tool-jvmstr", version.ref = "site-addzero-tool-jvmstr" }
+tool-koin = { group = "site.addzero", name = "tool-koin", version.ref = "site-addzero-tool-koin" }
+tool-pinyin = { group = "site.addzero", name = "tool-pinyin", version.ref = "site-addzero-tool-pinyin" }
+tool-reflection = { group = "site.addzero", name = "tool-reflection", version.ref = "site-addzero-tool-reflection" }
+tool-spctx = { group = "site.addzero", name = "tool-spctx", version.ref = "site-addzero-tool-spctx" }
+tool-spel = { group = "site.addzero", name = "tool-spel", version.ref = "site-addzero-tool-spel" }
+tool-sql-executor = { group = "site.addzero", name = "tool-sql-executor", version.ref = "site-addzero-tool-sql-executor" }
+tool-str = { group = "site.addzero", name = "tool-str", version.ref = "site-addzero-tool-str" }
+tool-yml = { group = "site.addzero", name = "tool-yml", version.ref = "site-addzero-tool-yml" }
+validation-api = { group = "javax.validation", name = "validation-api", version.ref = "validation" }
+velocity-engine-core = { group = "org.apache.velocity", name = "velocity-engine-core", version.ref = "velocity" }
+
+
+
+
+
+
 caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version.ref = "caffeine" }
 
 gradle-tool-config-java = { group = "site.addzero", name = "gradle-tool-config-java", version.ref = "gradle-tool-config-java" }

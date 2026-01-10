@@ -13,5 +13,5 @@ dependencies {
     implementation(project.dependencies.platform(libs.koin.bom))
     implementation(libs.koin.annotations)
     implementation(libs.koin.core)
-    implementation("site.addzero:tool-koin:2025.09.30")
+    implementation(libs.tool.koin)
 }
