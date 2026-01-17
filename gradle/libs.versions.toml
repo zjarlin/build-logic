@@ -25,6 +25,7 @@ jdk = "8"
 
 kotlin = "2.2.21"
 ksp = "2.2.21-2.0.4"
+koin-compiler = "2.3.2-Beta1"
 com-diffplug-spotless = "8.0.0"
 
 # 本项目安卓应用版本定义
@@ -283,7 +284,7 @@ junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.r
 kingbase8 = { group = "cn.com.kingbase", name = "kingbase8", version.ref = "kingbase8" }
 koin-annotations = { group = "io.insert-koin", name = "koin-annotations", version.ref = "io-insert-koin-koin-annotations" }
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "io-insert-koin-koin-core" }
-koin-ksp-compiler = { group = "io.insert-koin", name = "koin-ksp-compiler", version.ref = "ksp" }
+koin-ksp-compiler = { group = "io.insert-koin", name = "koin-ksp-compiler", version.ref = "koin-compiler" }
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
 kotest-property = { group = "io.kotest", name = "kotest-property", version.ref = "kotest" }
 kotest-runner-junit5 = { group = "io.kotest", name = "kotest-runner-junit5", version.ref = "kotest" }
