@@ -223,14 +223,14 @@ software-amazon-awssdk-s3 = "2.29.16"
 swagger = "1.6.12"
 tidb = "0.1.0"
 validation = "2.0.1.Final"
-
+addzero-jimmer-model-lowquery-version = "2025.09.29"
 
 
 [libraries]
 addzero-entity2analysed-support = { group = "site.addzero", name = "addzero-entity2analysed-support", version.ref = "addzero" }
 addzero-entity2form-core = { group = "site.addzero", name = "addzero-entity2form-core", version.ref = "addzero" }
 addzero-ioc-core = { group = "site.addzero", name = "addzero-ioc-core", version.ref = "addzero" }
-addzero-jimmer-model-lowquery = { group = "site.addzero", name = "addzero-jimmer-model-lowquery", version.ref = "addzero" }
+addzero-jimmer-model-lowquery = { group = "site.addzero", name = "addzero-jimmer-model-lowquery", version.ref = "addzero-jimmer-model-lowquery-version" }
 addzero-kcp-annotations = { group = "site.addzero", name = "addzero-kcp-annotations", version.ref = "addzero" }
 addzero-ksp-dsl-builder-core = { group = "site.addzero", name = "addzero-ksp-dsl-builder-core", version.ref = "addzero" }
 addzero-ksp-easycode = { group = "site.addzero", name = "addzero-ksp-easycode", version.ref = "addzero" }
