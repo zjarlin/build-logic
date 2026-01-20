@@ -14,9 +14,9 @@ dependencies {
     implementation(platform("org.springframework.boot:spring-boot-dependencies:$version"))
 
     testImplementation(libs.spring.boot.starter.test)
-    testImplementation(libs.jupiter.api)
+    testImplementation(libs.junit.jupiter.api)
     testImplementation(libs.h2)
-    testRuntimeOnly(libs.jupiter.engine)
+    testRuntimeOnly(libs.junit.jupiter.engine)
     testImplementation(libs.spring.boot.starter.web)
 
 }

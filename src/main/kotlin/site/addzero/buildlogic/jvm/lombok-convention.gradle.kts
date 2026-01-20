@@ -10,7 +10,7 @@ plugins {
 
 val libs = the<LibrariesForLibs>()
 dependencies {
-    implementation(libs.org.projectlombok.lombok)
-    annotationProcessor(libs.org.projectlombok.lombok)
+    implementation(libs.lombok)
+    annotationProcessor(libs.lombok)
 
 }

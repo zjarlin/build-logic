@@ -44,5 +44,5 @@ dependencies {
     implementation(libs.gradlePlugin.ktorfit)
     implementation(libs.gradlePlugin.android)
     ///////////////ksp///////////
-    implementation(libs.gradlePlugin.ksp)
+    implementation(libs.gradle.plugin.ksp)
 }
