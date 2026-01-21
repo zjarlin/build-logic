@@ -1,3 +1,6 @@
+package site.addzero.buildlogic.kmp.libs
+
+import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.kotlin.dsl.kotlin
 import org.gradle.kotlin.dsl.the
 
@@ -6,7 +9,7 @@ plugins {
     id("org.jetbrains.kotlin.multiplatform")
 
 }
-val libs = the<org.gradle.accessors.dm.LibrariesForLibs>()
+val libs = the<LibrariesForLibs>()
 
 kotlin {
 

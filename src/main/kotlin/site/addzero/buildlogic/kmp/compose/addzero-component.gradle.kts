@@ -1,3 +1,5 @@
+package site.addzero.buildlogic.kmp.compose
+
 plugins {
     id("org.jetbrains.kotlin.multiplatform")
 }

@@ -1,5 +1,7 @@
 @file:OptIn(ExperimentalWasmDsl::class)
 
+package site.addzero.buildlogic.kmp.composition
+
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 plugins {
     //todo 暂不开发安卓

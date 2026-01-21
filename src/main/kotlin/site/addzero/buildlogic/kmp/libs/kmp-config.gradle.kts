@@ -1,8 +1,9 @@
+package site.addzero.buildlogic.kmp.libs
+
 import com.codingfeline.buildkonfig.compiler.FieldSpec
-import org.gradle.declarative.dsl.schema.FqName.Empty.packageName
 //import site.addzero.gradle.tool.defByClass
 //import site.addzero.gradle.tool.defByMap
-import site.addzero.gradle.BuildSettings
+
 buildscript {
     dependencies {
         classpath("site.addzero.gradle:gradle-tool")

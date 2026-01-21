@@ -1,4 +1,6 @@
-import org.gradle.declarative.dsl.schema.FqName.Empty.packageName
+package site.addzero.buildlogic.kmp.platform
+
+import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.kotlin.dsl.the
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import site.addzero.gradle.BuildSettings
@@ -7,7 +9,7 @@ plugins {
     id("kmp-compose-common")
 
 }
-val libs = the<org.gradle.accessors.dm.LibrariesForLibs>()
+val libs = the<LibrariesForLibs>()
 
 kotlin {
     jvm()

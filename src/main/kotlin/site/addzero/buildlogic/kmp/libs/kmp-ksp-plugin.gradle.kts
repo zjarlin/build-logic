@@ -1,3 +1,5 @@
+package site.addzero.buildlogic.kmp.libs
+
 plugins {
     id("com.google.devtools.ksp")
     id("org.jetbrains.kotlin.multiplatform")

@@ -1,9 +1,10 @@
 @file:OptIn(ExperimentalWasmDsl::class)
 
+package site.addzero.buildlogic.kmp.composition
+
 import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.kotlin.dsl.the
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
-import org.jetbrains.kotlin.gradle.internal.platform.wasm.WasmPlatforms.wasmJs
 
 val libs = the<LibrariesForLibs>()
 plugins {

@@ -1,3 +1,5 @@
+package site.addzero.buildlogic.kmp.libs
+
 import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.kotlin.dsl.the
 

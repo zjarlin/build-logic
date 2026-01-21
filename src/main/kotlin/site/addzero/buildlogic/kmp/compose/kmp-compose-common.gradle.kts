@@ -1,3 +1,6 @@
+package site.addzero.buildlogic.kmp.compose
+
+import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.kotlin.dsl.the
 
 plugins {
@@ -5,7 +8,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
     id("org.jetbrains.kotlin.multiplatform")
 }
-val libs = the<org.gradle.accessors.dm.LibrariesForLibs>()
+val libs = the<LibrariesForLibs>()
 
 kotlin {
     sourceSets {

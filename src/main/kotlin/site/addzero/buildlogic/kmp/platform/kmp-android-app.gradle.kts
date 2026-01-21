@@ -1,13 +1,15 @@
 @file:OptIn(ExperimentalWasmDsl::class)
 
+package site.addzero.buildlogic.kmp.platform
+
+import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.kotlin.dsl.the
-import org.jetbrains.compose.ComposePlugin.CommonComponentsDependencies.resources
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import site.addzero.gradle.BuildSettings
 
-val libs = the<org.gradle.accessors.dm.LibrariesForLibs>()
+val libs = the<LibrariesForLibs>()
 
 plugins {
     id("com.android.application")
