@@ -7,7 +7,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget
 
 plugins {
-    id("kmp")
+  id("org.jetbrains.kotlin.multiplatform")
 }
 kotlin {
     jvmToolchain(8)
