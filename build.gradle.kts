@@ -13,7 +13,7 @@ dependencies {
     // 关键：添加 Guice 依赖，解决 Sisu 模块的父类解析问题
     implementation(libs.guice) // 稳定兼容版本
     ////////////jvm/////////////////////
-//    implementation(libs.addzero.gradle.tool)
+    implementation(libs.addzero.gradle.tool)
     implementation(libs.com.diffplug.spotless.com.diffplug.spotless.gradle.plugin)
 
     implementation(libs.gradlePlugin.dokka)
