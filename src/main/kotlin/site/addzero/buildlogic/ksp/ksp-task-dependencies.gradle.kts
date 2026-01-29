@@ -1,4 +1,5 @@
-package site.addzero.buildlogic.kspimport com.google.devtools.ksp.gradle.KspAATask
+package site.addzero.buildlogic.ksp
+import com.google.devtools.ksp.gradle.KspAATask
 import org.gradle.kotlin.dsl.withType
 import org.jetbrains.kotlin.gradle.tasks.Kotlin2JsCompile
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile

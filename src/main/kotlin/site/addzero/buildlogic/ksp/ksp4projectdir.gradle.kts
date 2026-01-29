@@ -1,4 +1,5 @@
-package site.addzero.buildlogic.kspimport site.addzero.gradle.tool.ProjectDirScanner
+package site.addzero.buildlogic.ksp
+import site.addzero.gradle.tool.ProjectDirScanner
 plugins {
     id("com.google.devtools.ksp")
 }

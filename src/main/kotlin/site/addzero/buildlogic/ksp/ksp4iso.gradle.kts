@@ -1,4 +1,5 @@
-package site.addzero.buildlogic.kspplugins {
+package site.addzero.buildlogic.ksp
+plugins {
     id("com.google.devtools.ksp")
 }
 ksp {

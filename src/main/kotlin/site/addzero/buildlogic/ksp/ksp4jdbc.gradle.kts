@@ -1,4 +1,5 @@
-package site.addzero.buildlogic.kspimport site.addzero.util.YmlUtil
+package site.addzero.buildlogic.ksp
+import site.addzero.util.YmlUtil
 import site.addzero.util.YmlUtil.replaceEnvInString
 
 plugins {

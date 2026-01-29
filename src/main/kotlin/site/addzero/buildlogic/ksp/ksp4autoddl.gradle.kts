@@ -1,6 +1,7 @@
-package site.addzero.buildlogic.kspplugins {
+package site.addzero.buildlogic.ksp
+plugins {
     id("com.google.devtools.ksp")
-    id("ksp4jdbc")
+    id("site.addzero.buildlogic.ksp.ksp4jdbc")
 }
 
 ksp {
