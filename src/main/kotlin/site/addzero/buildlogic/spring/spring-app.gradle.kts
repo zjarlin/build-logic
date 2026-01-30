@@ -3,7 +3,7 @@ package site.addzero.buildlogic.spring
 import org.gradle.accessors.dm.LibrariesForLibs
 
 plugins {
-    id("site.addzero.buildlogic.spring.spring-common")
+    id("site.addzero.gradle.plugin.spring-common")
     kotlin("plugin.spring")
     id("io.spring.dependency-management")
 }
