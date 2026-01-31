@@ -5,7 +5,7 @@ import org.gradle.kotlin.dsl.the
 import org.jetbrains.kotlin.gradle.internal.types.error.ErrorModuleDescriptor.platform
 
 plugins {
-    id("site.addzero.gradle.plugin.kotlin-convention")
+    id("site.addzero.buildlogic.jvm.kotlin-convention")
 }
 val libs = the<LibrariesForLibs>()
 
