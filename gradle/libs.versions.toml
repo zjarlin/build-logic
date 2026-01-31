@@ -1,6 +1,6 @@
 [versions]
-kotlin = "2.3.20-Beta1"
-ksp = "2.3.4"
+kotlin = "2.3.20-Beta2"
+ksp = "2.3.5"
 addzero = "0.0.674"
 addzero-jimmer-model-lowquery-version = "2025.09.29"
 #addzero-lib = "2025.09.29"
