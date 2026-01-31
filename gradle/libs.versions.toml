@@ -1,5 +1,7 @@
 [versions]
 kotlin = "2.3.20-Beta2"
+kotlinGradlePlugin = "2.2.20-RC2"
+
 ksp = "2.3.5"
 addzero = "0.0.674"
 addzero-jimmer-model-lowquery-version = "2025.09.29"
@@ -160,7 +162,7 @@ site-addzero-gradle-tool-config-java = "0.0.674"
 site-addzero-huawei-java-sdk = "0.0.672"
 site-addzero-ioc-core = "2025.12.23"
 site-addzero-java-convention = "2025.12.19"
-site-addzero-kotlin-convention = "2025.12.20"
+site-addzero-kotlin-convention = "2026.02.02"
 site-addzero-ksp-convention = "2025.12.21"
 site-addzero-lsi-apt = "2026.01.11"
 site-addzero-lsi-core = "2026.01.11"
@@ -300,7 +302,7 @@ androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle
 androidx-lifecycle-viewmodelCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 #------------------------ org.jetbrains.kotlin ------------------------
 kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version.ref = "kotlin" }
-gradlePlugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+gradlePlugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
 # DUPLICATE: kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 # 添加缺失的 buildSrc 依赖
